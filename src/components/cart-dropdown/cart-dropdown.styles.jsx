@@ -31,6 +31,6 @@ export const CartItemsContainer = styled.div`
   overflow: hidden;
 
   &:hover {
-    overflow: scroll;
+    overflow: auto;
   }
 `;
