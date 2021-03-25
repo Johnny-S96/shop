@@ -7,7 +7,7 @@ import {
   BackgroundImage,
   NameContainer,
   PriceContainer
-} from './collection-item.styles';
+} from './collection-item.styles.js';
 
 import {connect} from 'react-redux';
 

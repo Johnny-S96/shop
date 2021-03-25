@@ -8,7 +8,7 @@ import {
   CartDropdownButton,
   EmptyMessageContainer,
   CartItemsContainer
-} from './cart-dropdown.styles';
+} from './cart-dropdown.styles.js';
 
 import CartItem from '../cart-item/cart-item.component';
 import {selectCartItems} from '../../redux/cart/cart.selectors';

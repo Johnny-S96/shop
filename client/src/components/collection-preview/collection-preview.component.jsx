@@ -4,7 +4,7 @@ import {
   CollectionPreviewContainer,
   TitleContainer,
   PreviewContainer
-} from './collection-preview.styles';
+} from './collection-preview.styles.js';
 
 import CollectionItem from '../collection-item/collection-item.component';
 

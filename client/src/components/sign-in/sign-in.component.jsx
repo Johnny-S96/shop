@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import { googleSignInStart, emailSignInStart } from '../../redux/user/user.actions';
 
-import {SignInContainer, SignInTitle, ButtonsBarContainer} from './sign-in.styles';
+import {SignInContainer, SignInTitle, ButtonsBarContainer} from './sign-in.styles.js';
 
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custsom-button/custom-button.component';

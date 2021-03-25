@@ -10,7 +10,7 @@ import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
 import { signOutStart } from '../../redux/user/user.actions';
 
-import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink } from './header.styles';
+import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink } from './header.styles.js';
 
 const Header = ({currentUser, hidden, signOutStart}) => (
   <HeaderContainer>
