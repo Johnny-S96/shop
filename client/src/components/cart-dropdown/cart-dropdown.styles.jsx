@@ -33,4 +33,8 @@ export const CartItemsContainer = styled.div`
   &:hover {
     overflow: auto;
   }
+
+  @media screen and (max-width: 800px) {
+    overflow: auto;
+  }
 `;
