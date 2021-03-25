@@ -12,6 +12,10 @@ export const CheckoutItemContainer = styled.div`
   @media screen and (max-width: 800px) {
     font-size: 18px;
   }
+
+  @media screen and (max-width: 350px) {
+    font-size: 12px;
+  }
 `;
 
 export const ImageContainer = styled.div`

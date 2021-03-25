@@ -24,6 +24,10 @@ export const CheckoutHeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid darkgrey;
+
+  @media screen and (max-width: 350px) {
+    font-size: 13px;
+  }
 `;
 
 export const HeaderBlockContainer = styled.div`
