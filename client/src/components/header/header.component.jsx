@@ -14,17 +14,17 @@ import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink } from './
 
 const Header = ({currentUser, hidden, signOutStart}) => (
   <HeaderContainer>
-    <LogoContainer to="/">
+    <LogoContainer to="/shop">
       <Logo />
     </LogoContainer>
     <OptionsContainer>
-      <OptionLink to='/shop'>
+      <OptionLink to='/shop/shop'>
         SHOP
       </OptionLink>
       {currentUser ? (
         <OptionLink as='div' onClick={signOutStart}>SIGN OUT</OptionLink>
       ) : (
-        <OptionLink to='/signin'>SIGN IN</OptionLink>
+        <OptionLink to='/shop/signin'>SIGN IN</OptionLink>
       )}
       <CartIcon />
     </OptionsContainer>
