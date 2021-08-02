@@ -11,7 +11,7 @@ import CollectionItem from '../collection-item/collection-item.component';
 const CollectionPreview = ({title, items}) => (
   <CollectionPreviewContainer>
     <TitleContainer>
-      <a href={`/shop/shop/${title.toLowerCase()}`}>
+      <a href={`./shop/${title.toLowerCase()}`}>
         {title.toUpperCase()}
       </a>
     </TitleContainer>

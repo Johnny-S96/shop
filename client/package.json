@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
-  "homepage": "https://johnny-s96.github.io/shop/",
+  "homepage": "https://johnny-s96.github.io/shop",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
